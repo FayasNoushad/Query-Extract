@@ -21,7 +21,7 @@ def readme(file="README.md"):
 
 setup(
     name="Query-Extract",
-    version="1.0.0",
+    version="1.0.1",
     author="FayasNoushad",
     long_description=readme(),
     long_description_content_type="text/markdown",
