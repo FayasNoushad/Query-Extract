@@ -15,5 +15,5 @@ def stringify(data):
         query, value = i, data[i]
         string += query + "+" + value
         strings.append(string)
-    strings = "&".join(strings)
-    return strings
+    new_string = "&".join(strings)
+    return new_string
