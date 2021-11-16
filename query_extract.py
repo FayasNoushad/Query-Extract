@@ -7,3 +7,13 @@ def extract(link):
         query, value = i.split("=")
         data[query] = value
     return json.dumps(data, indent=4)
+
+
+def stringify(data):
+    strings = []
+    for i in data:
+        query, value = i, data[i]
+        string += query + "+" + value
+        strings.append(string)
+    new_string = "&".join(strings)
+    return new_string

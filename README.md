@@ -22,15 +22,23 @@ import query_extract
 
 
 link = "https://github-readme-stats.vercel.app/api?username=FayasNoushad&theme=tokyonight"
-print(extract(link))
-```
-**returns :-**
-```json
+print(query_extract.extract(link))
+# returns :-
+"""
 {
     "username": "FayasNoushad",
     "theme": "tokyonight"
 }
+"""
+
+data = {
+    "username": "FayasNoushad",
+    "theme": "tokyonight"
+}
+print(query_extract.stringify(data)
+# => username=FayasNoushad&theme=tokyonight
 ```
+
 ---
 
 ## Credits
