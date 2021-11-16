@@ -15,6 +15,24 @@ pip install Query-Extract
 
 ---
 
+## Usage
+
+```py
+import query_extract
+
+
+link = "https://github-readme-stats.vercel.app/api?username=FayasNoushad&theme=tokyonight"
+print(extract(link))
+```
+**returns :-**
+```json
+{
+    "username": "FayasNoushad",
+    "theme": "tokyonight"
+}
+```
+---
+
 ## Credits
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
