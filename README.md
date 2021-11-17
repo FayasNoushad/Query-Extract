@@ -35,7 +35,7 @@ data = {
     "username": "FayasNoushad",
     "theme": "tokyonight"
 }
-print(query_extract.stringify(data)
+print(query_extract.stringify(data))
 # => username=FayasNoushad&theme=tokyonight
 ```
 
