@@ -1,19 +1,11 @@
-```
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Query-Extract/blob/main/LICENSE
-```
-
----
+## Query Extract
+Extract queries from url
 
 ## Installation
 
 ```
 pip install Query-Extract
 ```
-
----
 
 ## Usage
 
@@ -38,11 +30,3 @@ data = {
 print(query_extract.stringify(data))
 # => username=FayasNoushad&theme=tokyonight
 ```
-
----
-
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-
----
